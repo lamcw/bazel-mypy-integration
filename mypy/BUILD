@@ -8,5 +8,7 @@ py_binary(
     visibility = ["//visibility:public"],
     deps = [
         requirement("mypy"),
+        requirement("boto3-stubs"),
+        requirement("botocore-stubs"),
     ],
 )
